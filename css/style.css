@@ -68,3 +68,32 @@ body{
         font-size: .5rem;
     }
 }
+
+.button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button button {
+    /* background: linear-gradient(45deg, #f5bbd3, #f7a8b5); */
+    border: none;
+    outline: none;
+    padding: 5px 24px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.button button a {
+    text-decoration: none;
+    /* color: white; */
+    font-family: Arial, sans-serif;
+}
+
+.button button:hover {
+    background: linear-gradient(45deg, #ff758c, #ff7eb3);
+    transform: scale(1.05);
+}
+
